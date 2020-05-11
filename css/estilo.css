@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.encabezado {
+	color: white;
+	background-color: #F76509;
+	height: 150px;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 60px;
+	margin-bottom: 150px;
+	
+}
+.galeria{
+	width: 450px;
+	height: 450px;
+	float: left;
+	margin-left: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 100px;
+	
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
+}
+
+#uno{
+	background-image: url("../imagenes/elcielo.jpg");
+	
+}
+
+#dos{
+	background-image: url("../imagenes/tristes.jpg")
+}
+
+.clip{
+	width: 25%;
+	margin-left: 70px;
+	margin-right: 2%;
+	float: left;
+}
+.videos{
+	margin-top: 5px;
+	background-color: #FFB300;
+	padding-top: 200px;
+	height: 400px;
+	
+}
+
+.espacio{clear:both;}
+
+.footer{
+	background-color: black;
+	height: 70px;
+	color: white;
+}
